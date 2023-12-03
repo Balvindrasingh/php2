@@ -1,0 +1,234 @@
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e4dede, #f3efef);
+  }
+
+
+
+
+header {
+    background-image: url('../images/head.webp'); 
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /*background: linear-gradient(to left, #e2c657, #e2c657);*/
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li:hover {
+    color: #ff4500;
+}
+
+.home {
+    background-image: url('../images/products.avif');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.home h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 1.2em;
+    color: #e0e0e0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff4500;
+    color: #fff;
+    padding: 12px 24px;
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #e04111;
+}
+
+.about{
+    margin-top: 5%;
+        background-image: url('../images/back.jpg'); /* Replace with the actual path to your image */
+        background-size: cover;
+        background-position: center;
+        color: #fff; /* Set text color to be visible against the background */
+        padding: 100px; /* Adjust the padding as needed */
+        text-align: center;
+    }
+    
+.contact{
+    background-image: url('../images/wallpaer.jpg'); /* Replace with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+}
+.product
+ {
+    background-image: url('../images/back.jpg'); /* Replace with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    /*background: linear-gradient(to left, #222220, #fcefef);*/
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 30px 0;
+}
+
+.product h2,
+.contact h2 {
+    font-size: 3em;
+    color: #060606;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.product-gallery img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-gallery img:hover {
+    transform: scale(1.1);
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    color: #e0e0e0;
+}
+
+.contact form label,
+.contact form textarea,
+.contact form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form textarea {
+    resize: vertical;
+}
+
+.contact form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    
+    margin-top: 5%;
+        background-image: url('../images/footer.jpg'); /* Replace with the actual path to your image */
+        background-size: cover;
+        background-position: center;
+        color: #fff; /* Set text color to be visible against the background */
+        padding: 100px; /* Adjust the padding as needed */
+        text-align: center;
+    width: 100%;
+}
+
+/*fro video*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add other styles */
+
+.home {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%; /* Adjust the width as needed */
+    height: 150%; /* Adjust the height as needed */
+    overflow: hidden;
+    transform: translate(-10%, -10%); /* Center the video container */
+}
+
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.explore-button {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: #ff4500;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.explore-button:hover {
+    background-color: #e04111;
+}
+
+/* Add more styles for other sections, buttons, etc. */

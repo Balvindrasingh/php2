@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Our Product - Your Product</title>
+    <style>
+
+        
+        .product-gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        
+        .product-item {
+            text-align: center;
+        }
+        
+        .product-item img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        
+        .product-item img:hover {
+            transform: scale(1.1);
+        }
+        
+        .product-description {
+            margin-top: 10px;
+        }
+        
+        .product-description h3 {
+            font-size: 1.5em;
+            color: #c3b9b9;
+        }
+        
+        .product-description p {
+            color: #666;
+        }
+        
+        .product-description a {
+            display: inline-block;
+            background-color: #ff4500;
+            color: #fff;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        
+        .product-description a:hover {
+            background-color: #e04111;
+        }
+        </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+     <!-- Global Header -->
+<?php include 'includes/header.php'; ?>
+    </header>
+
+    <!-- Product Section -->
+<section class="product">
+    <h2>Our Amazing Product</h2>
+    <div class="product-gallery">
+        <div class="product-item">
+            <img src="images/product1.webp" alt="Product 1">
+            <div class="product-description">
+                <h3>Artist Collection Suit Case for Galaxy Z Flip5</h3>
+                <p>Ready for life on the road. <br>means you get take your sound on every journey.   <br> Live life to your own beat.</p>
+                <a href="https://www.samsung.com/ca/mobile-accessories/suit-case-for-galaxy-z-flip5-artist-collection-white-gp-fpf731sbfwd/">Learn More</a>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="images/product2.avif" alt="Product 2">
+            <div class="product-description">
+                <h3>Popticle Case by Artist Haydonna for Galaxy Z Fold5</h3>
+                <p></p>
+                <a href="https://www.samsung.com/ca/mobile-accessories/artist-haydonna-popticle-case-for-galaxy-z-fold5-yellow-gp-fpf946sbdyd/">Learn More</a>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="images/product3.webp" alt="Product 3">
+            <div class="product-description">
+                <h3>case</h3>
+               
+                <a href="https://www.samsung.com/ca/smartphones/galaxy-z-flip5/">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <?php include 'includes/footer.php'; ?>
+
+</body>
+
+</html>
